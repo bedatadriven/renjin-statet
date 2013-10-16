@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="libs/jline-2.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/xz-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-compress-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jna-3.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/codemodel-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jtransforms-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/joda-time-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/guava-13.0.jar" sourcepath="C:/Users/rytina/.m2/repository/com/google/guava/guava/13.0/guava-13.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-vfs2-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/asm-util-4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/asm-4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jung-graph-impl-2.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jung-api-2.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/f2jutil-0.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/netlib-java-0.9.3-renjin-patched-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/soot-2.5.0-all-deps.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="src-gen"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

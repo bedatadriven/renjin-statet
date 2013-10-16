@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.renjin.statet.ui
+Bundle-SymbolicName: org.renjin.statet.ui;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Fragment-Host: de.walware.statet.r.console.ui
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.renjin.core

@@ -1,0 +1,59 @@
+Manifest-Version: 1.0
+Class-Path: . libs/commons-compress-1.4.1.jar libs/org.eclip
+ se.equinox.registry_3.5.200.v20120522-1841.jar libs/org.apache.c
+ ommons.logging_1.0.4.v201101211617.jar libs/org.eclipse.equinox.
+ preferences_3.5.0.v20120522-1841.jar libs/guava-13.0.jar test3_l
+ ib/org.apache.commons.math_2.1.0.v201105210652.jar libs/org.ecli
+ pse.equinox.app_1.3.100.v20120522-1841.jar libs/netlib-java-0.9.
+ 3-renjin-patched-2.jar libs/xz-1.0.jar libs/jung-graph-impl
+ -2.0.1.jar libs/org.eclipse.equinox.common_3.6.100.v20120522-184
+ 1.jar libs/joda-time-2.0.jar libs/org.eclipse.core.runtime_
+ 3.8.0.v20120521-2346.jar libs/jline-2.10.jar libs/jung-api-
+ 2.0.1.jar libs/org.eclipse.core.jobs_3.5.300.v20120622-204750.ja
+ r libs/asm-util-4.0.jar libs/f2jutil-0.8.jar libs/org.
+ eclipse.osgi_3.8.1.v20120830-144521.jar libs/org.eclipse.core.co
+ ntenttype_3.4.200.v20120523-2004.jar libs/jtransforms-2.4.jar te
+ st3_lib/jna-3.4.0.jar libs/soot-2.5.0-all-deps.jar libs/run
+ time_registry_compatibility.jar libs/codemodel-2.6.jar libs
+ /commons-vfs2-2.0.jar libs/asm-4.0.jar
+Main-Class: org.renjin.cli.CustomMain
+Export-Package: org.renjin,org.renjin.base,org.renjin.compiler,org.ren
+ jin.compiler.cfg,org.renjin.compiler.ir,org.renjin.compiler.ir.except
+ ion,org.renjin.compiler.ir.ssa,org.renjin.compiler.ir.tac,org.renjin.
+ compiler.ir.tac.expressions,org.renjin.compiler.ir.tac.functions,org.
+ renjin.compiler.ir.tac.statements,org.renjin.compiler.ir.tree,org.ren
+ jin.compiler.pipeline,org.renjin.compiler.pipeline.accessor,org.renji
+ n.compiler.pipeline.optimize,org.renjin.compiler.runtime,org.renjin.c
+ ore,org.renjin.eval,org.renjin.eval.vfs,org.renjin.graphics,org.renji
+ n.graphics.device,org.renjin.graphics.geom,org.renjin.jvminterop,org.
+ renjin.jvminterop.converters,org.renjin.methods,org.renjin.packaging,
+ org.renjin.parser,org.renjin.primitives,org.renjin.primitives.annotat
+ ions,org.renjin.primitives.annotations.processor,org.renjin.primitive
+ s.annotations.processor.args,org.renjin.primitives.annotations.proces
+ sor.generic,org.renjin.primitives.annotations.processor.scalars,org.r
+ enjin.primitives.files,org.renjin.primitives.graphics,org.renjin.prim
+ itives.io,org.renjin.primitives.io.connections,org.renjin.primitives.
+ io.lzma,org.renjin.primitives.io.serialization,org.renjin.primitives.
+ match,org.renjin.primitives.matrix,org.renjin.primitives.models,org.r
+ enjin.primitives.optimize,org.renjin.primitives.packaging,org.renjin.
+ primitives.random,org.renjin.primitives.random.distributions,org.renj
+ in.primitives.sequence,org.renjin.primitives.special,org.renjin.primi
+ tives.subset,org.renjin.primitives.summary,org.renjin.primitives.text
+ ,org.renjin.primitives.text.regex,org.renjin.primitives.time,org.renj
+ in.primitives.vector,org.renjin.sexp,org.renjin.tools,org.renjin.util
+Require-Bundle: org.eclipse.core.runtime,org.apache.commons.math,org.a
+ pache.commons.logging
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,libs/soot-2.5.0-all-deps.jar,libs/netlib-java-0.9.
+ 3-renjin-patched-2.jar,libs/f2jutil-0.8.jar,libs/jung-api-2.0.1.jar,l
+ ibs/jung-graph-impl-2.0.1.jar,libs/asm-4.0.jar,libs/asm-util-4.0.jar,
+ libs/commons-vfs2-2.0.jar,libs/guava-13.0.jar,libs/joda-time-2.0.jar,
+ libs/jtransforms-2.4.jar,libs/codemodel-2.6.jar,libs/jna-3.4.0.jar,li
+ bs/commons-compress-1.4.1.jar,libs/xz-1.0.jar,libs/jline-2.10.jar
+Bundle-Version: 0.1.0.201302220731
+Bundle-Name: org.renjin.core
+Bundle-Activator: org.renjin.core.Activator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.renjin.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<fragment>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="org.renjin.statet.ui.EarlyRenjinStartup"></startup>
+   </extension>
+   
+   <!--rytina: added custom lauching logic for renjin-->
+   <extension point="org.eclipse.debug.core.launchConfigurationTypes">
+      <launchConfigurationType
+            id="de.walware.statet.r.launchConfigurationTypes.RConsole.copy"
+            delegate="de.walware.statet.r.internal.console.ui.launching.CustomRConsoleLaunchDelegate"
+            modes="run"
+            name="R Console"
+            public="true">
+      </launchConfigurationType>
+   </extension>
+   
+   <!--rytina: adde the option Renjin to the R Types selection widget -->
+   <extension point="org.eclipse.debug.ui.launchConfigurationTabGroups">
+      <launchConfigurationTabGroup
+            id="de.walware.statet.r.launchConfigurationTabGroups.RConsole.copy"
+            type="de.walware.statet.r.launchConfigurationTypes.RConsole.copy"
+            class="de.walware.statet.r.internal.console.ui.launching.CustomRConsoleTabGroup"
+            description="Run a R Console."
+            helpContextId="de.walware.statet.r.ui.r_console-launch"/>
+   </extension>
+
+   <!--rytina: -->
+   <extension point="org.eclipse.debug.ui.launchConfigurationTabGroups">
+      <launchConfigurationTabGroup
+            id="de.walware.statet.r.launchConfigurationTabGroups.RRemoteConsole.copy"
+            type="de.walware.statet.r.launchConfigurationTypes.RRemoteConsole"
+            class="de.walware.statet.r.internal.console.ui.launching.RRemoteConsoleTabGroup"
+            description="Connect a R Console to a R service"
+            helpContextId="de.walware.statet.r.ui.r_remote_console-launch"/>
+   </extension>
+</fragment>
